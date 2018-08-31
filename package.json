@@ -1,0 +1,20 @@
+{
+  "name": "node-restful-api-auth",
+  "version": "1.0.0",
+  "description": "API RESTFul Express, Mongo, JWT, Cors, Auth",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Martín Barbaste <mbarbaste@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.12",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
